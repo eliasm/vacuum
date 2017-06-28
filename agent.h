@@ -29,6 +29,11 @@ class Agent {
   const int total_time_;
   // Did we switch the room?
   bool switched_rooms_;
+  // last signal of charging station
+  float last_charging_signal_;
+  //
+  Direction last_direction_command_;
+
 
   Direction SpiralCommand(const Perception& p);
   Direction SwitchRoomCommand(const Perception& p);
