@@ -29,6 +29,8 @@ class Agent {
   const int total_time_;
   // Did we switch the room?
   bool switched_rooms_;
+  // Last direction
+  Direction lastDir_;
 
   Direction SpiralCommand(const Perception& p);
   Direction SwitchRoomCommand(const Perception& p);
