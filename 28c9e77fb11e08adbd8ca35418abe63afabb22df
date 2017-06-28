@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "faff3fed_23621575",
+        "filename": "agent.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1011639
+      },
+      "writtenOn": "2017-06-28T13:45:55Z",
+      "side": 1,
+      "message": "if you run cpplinter it might complain about the ordering",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 5
+      },
+      "revId": "28c9e77fb11e08adbd8ca35418abe63afabb22df",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7382e52f_e9847549",
+        "filename": "agent.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1011639
+      },
+      "writtenOn": "2017-06-28T13:45:55Z",
+      "side": 1,
+      "message": "I will play the consistency card:\nconsider the form \n\nif () { \n} else {\n}",
+      "range": {
+        "startLine": 50,
+        "startChar": 2,
+        "endLine": 50,
+        "endChar": 5
+      },
+      "revId": "28c9e77fb11e08adbd8ca35418abe63afabb22df",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "945eb7a5_5b8629b3",
+        "filename": "agent.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1011639
+      },
+      "writtenOn": "2017-06-28T13:45:55Z",
+      "side": 1,
+      "message": "remove empty lines?",
+      "range": {
+        "startLine": 94,
+        "startChar": 0,
+        "endLine": 96,
+        "endChar": 0
+      },
+      "revId": "28c9e77fb11e08adbd8ca35418abe63afabb22df",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "85385f0f_aeeacfcd",
+        "filename": "agent.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1011639
+      },
+      "writtenOn": "2017-06-28T13:45:55Z",
+      "side": 1,
+      "message": "remove empy blank lines",
+      "range": {
+        "startLine": 40,
+        "startChar": 0,
+        "endLine": 40,
+        "endChar": 0
+      },
+      "revId": "28c9e77fb11e08adbd8ca35418abe63afabb22df",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
