@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "19c47492_ecfcefbc",
+        "filename": "agent.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1011639
+      },
+      "writtenOn": "2017-06-28T13:47:03Z",
+      "side": 1,
+      "message": "consider having them const",
+      "range": {
+        "startLine": 38,
+        "startChar": 4,
+        "endLine": 38,
+        "endChar": 7
+      },
+      "revId": "71025c041f67142427d063d2f76f6a45be613294",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
