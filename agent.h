@@ -30,9 +30,15 @@ class Agent {
   // Did we switch the room?
   bool switched_rooms_;
 
+  // variables for spiral move
+  Direction last_direction_;
+
+
   Direction SpiralCommand(const Perception& p);
   Direction SwitchRoomCommand(const Perception& p);
   Direction GoHomeCommand(const Perception& p);
+
+
 };
 
 #endif  // AGENT_H_
