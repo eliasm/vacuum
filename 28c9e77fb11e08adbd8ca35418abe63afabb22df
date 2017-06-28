@@ -25,6 +25,29 @@
     },
     {
       "key": {
+        "uuid": "d4063730_1b311cef",
+        "filename": "agent.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1011613
+      },
+      "writtenOn": "2017-06-28T13:50:25Z",
+      "side": 1,
+      "message": "const auto?",
+      "range": {
+        "startLine": 47,
+        "startChar": 7,
+        "endLine": 47,
+        "endChar": 11
+      },
+      "revId": "28c9e77fb11e08adbd8ca35418abe63afabb22df",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7382e52f_e9847549",
         "filename": "agent.cc",
         "patchSetId": 1
@@ -41,6 +64,121 @@
         "startChar": 2,
         "endLine": 50,
         "endChar": 5
+      },
+      "revId": "28c9e77fb11e08adbd8ca35418abe63afabb22df",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e9f8ac53_afec2ff8",
+        "filename": "agent.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1011613
+      },
+      "writtenOn": "2017-06-28T13:50:25Z",
+      "side": 1,
+      "message": "maybe front() instead of [0]? however, this is a question of style.",
+      "range": {
+        "startLine": 62,
+        "startChar": 21,
+        "endLine": 62,
+        "endChar": 24
+      },
+      "revId": "28c9e77fb11e08adbd8ca35418abe63afabb22df",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f48ef65_46538209",
+        "filename": "agent.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1011613
+      },
+      "writtenOn": "2017-06-28T13:50:25Z",
+      "side": 1,
+      "message": "again matter of taste, but maybe true instead of 1?",
+      "range": {
+        "startLine": 66,
+        "startChar": 11,
+        "endLine": 66,
+        "endChar": 12
+      },
+      "revId": "28c9e77fb11e08adbd8ca35418abe63afabb22df",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "204d6c3d_0ffe9626",
+        "filename": "agent.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1011613
+      },
+      "writtenOn": "2017-06-28T13:50:25Z",
+      "side": 1,
+      "message": "can you add some comments what this loop is doing? maybe also why this should always exit the loop.",
+      "range": {
+        "startLine": 66,
+        "startChar": 3,
+        "endLine": 66,
+        "endChar": 13
+      },
+      "revId": "28c9e77fb11e08adbd8ca35418abe63afabb22df",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "646ecf98_24955c3f",
+        "filename": "agent.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1011613
+      },
+      "writtenOn": "2017-06-28T13:50:25Z",
+      "side": 1,
+      "message": "I think Random() can return 1, in which case you would run out of bounds...",
+      "range": {
+        "startLine": 68,
+        "startChar": 33,
+        "endLine": 68,
+        "endChar": 61
+      },
+      "revId": "28c9e77fb11e08adbd8ca35418abe63afabb22df",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dc426df2_387f2c9c",
+        "filename": "agent.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1011613
+      },
+      "writtenOn": "2017-06-28T13:50:25Z",
+      "side": 1,
+      "message": "const int",
+      "range": {
+        "startLine": 68,
+        "startChar": 6,
+        "endLine": 68,
+        "endChar": 9
       },
       "revId": "28c9e77fb11e08adbd8ca35418abe63afabb22df",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
