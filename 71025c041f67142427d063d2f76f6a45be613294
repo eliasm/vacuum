@@ -22,6 +22,40 @@
       "revId": "71025c041f67142427d063d2f76f6a45be613294",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "16076393_8cc08896",
+        "filename": "agent.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1011621
+      },
+      "writtenOn": "2017-06-28T13:50:00Z",
+      "side": 1,
+      "message": "about the format: `else if` should start a new line",
+      "revId": "71025c041f67142427d063d2f76f6a45be613294",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cced515b_edfb079e",
+        "filename": "agent.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1011621
+      },
+      "writtenOn": "2017-06-28T13:50:00Z",
+      "side": 1,
+      "message": "Better to follow the convention already in the file (last_dir_)",
+      "revId": "71025c041f67142427d063d2f76f6a45be613294",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
