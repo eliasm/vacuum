@@ -24,6 +24,15 @@ class Agent {
   const Battery* battery_;
   // Not owned by the agent.
   const int* time_;
+
+  // Maximum time that the agent has available
+  const int total_time_;
+  // Did we switch the room?
+  bool switched_rooms_;
+
+  Direction SpiralCommand(const Perception& p);
+  Direction SwitchRoomCommand(const Perception& p);
+  Direction GoHomeCommand(const Perception& p);
 };
 
 #endif  // AGENT_H_

@@ -5,23 +5,39 @@
 #include "utils.h"
 
 Agent::Agent(const Battery* battery, const int* time) :
-  battery_(battery), time_(time) {}
+  battery_(battery), time_(time), total_time_(*time), switched_rooms_(false) {}
 
 Direction Agent::NextDirection(const Perception& p) {
-  const float random = Random();
-  if (random < 0.2) {
-    return Direction::NONE;
+  // spiral first third
+  if (*time_ > total_time_/3*2) {
+    return SpiralCommand(p);
   }
-  if (random < 0.4) {
-    return Direction::LEFT;
+  else {
+    // switch room after some time
+    while (!switched_rooms_ && *time_ > total_time_/3) {
+      return SwitchRoomCommand(p);
+    }
+
+    // go back to charging station in last third
+    if (*time_ < total_time_/3) {
+      return GoHomeCommand(p);
+    }
+
+    // do spiral in (hopefully) the other room
+    return SpiralCommand(p);
   }
-  if (random < 0.6) {
-    return Direction::UP;
-  }
-  if (random < 0.8) {
-    return Direction::DOWN;
-  }
-  return Direction::RIGHT;
+}
+
+Direction Agent::SpiralCommand(const Perception& p) {
+  return Direction::NONE;
+}
+
+Direction Agent::SwitchRoomCommand(const Perception& p) {
+  return Direction::NONE;
+}
+
+Direction Agent::GoHomeCommand(const Perception& p) {
+  return Direction::NONE;
 }
 
 bool Agent::IsAlive() const {
