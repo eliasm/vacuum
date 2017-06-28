@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c5c298f8_9f529f19",
+        "filename": "agent.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1011639
+      },
+      "writtenOn": "2017-06-28T13:42:28Z",
+      "side": 1,
+      "message": "Assign a todo to a user, possibly you with \n\nTODO(Elias)\n\ncpplint should complain about this",
+      "range": {
+        "startLine": 43,
+        "startChar": 5,
+        "endLine": 43,
+        "endChar": 9
+      },
+      "revId": "7691dc240aa2124d6c34f4082baa6262c77f8088",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b07d542c_22e659f1",
+        "filename": "agent.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1011639
+      },
+      "writtenOn": "2017-06-28T13:42:28Z",
+      "side": 1,
+      "message": "have you considered the swtich statement?",
+      "range": {
+        "startLine": 58,
+        "startChar": 8,
+        "endLine": 58,
+        "endChar": 13
+      },
+      "revId": "7691dc240aa2124d6c34f4082baa6262c77f8088",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9fd22302_3f432e0c",
+        "filename": "agent.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1011639
+      },
+      "writtenOn": "2017-06-28T13:42:28Z",
+      "side": 1,
+      "message": "up to you: this is largely style dependent, but I find that \n\n} else {\n\nuses less of the previous vertical space. Also this would be consistent with the rest of the project",
+      "range": {
+        "startLine": 83,
+        "startChar": 10,
+        "endLine": 84,
+        "endChar": 16
+      },
+      "revId": "7691dc240aa2124d6c34f4082baa6262c77f8088",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da1fc870_6980509a",
+        "filename": "agent.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1011639
+      },
+      "writtenOn": "2017-06-28T13:42:28Z",
+      "side": 1,
+      "message": "nit: comments start with a capital letter.",
+      "range": {
+        "startLine": 32,
+        "startChar": 5,
+        "endLine": 32,
+        "endChar": 6
+      },
+      "revId": "7691dc240aa2124d6c34f4082baa6262c77f8088",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7ea57619_3aac8544",
+        "filename": "agent.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1011639
+      },
+      "writtenOn": "2017-06-28T13:42:28Z",
+      "side": 1,
+      "message": "missing comment",
+      "range": {
+        "startLine": 34,
+        "startChar": 2,
+        "endLine": 34,
+        "endChar": 4
+      },
+      "revId": "7691dc240aa2124d6c34f4082baa6262c77f8088",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
