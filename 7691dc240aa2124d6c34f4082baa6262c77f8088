@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "86ae3704_751e8751",
+        "filename": "agent.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1011626
+      },
+      "writtenOn": "2017-06-28T13:52:16Z",
+      "side": 1,
+      "message": "Why is 20% a good battery level for returning?",
+      "range": {
+        "startLine": 22,
+        "startChar": 54,
+        "endLine": 22,
+        "endChar": 56
+      },
+      "revId": "7691dc240aa2124d6c34f4082baa6262c77f8088",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c5c298f8_9f529f19",
         "filename": "agent.cc",
         "patchSetId": 1
@@ -18,6 +41,29 @@
         "startChar": 5,
         "endLine": 43,
         "endChar": 9
+      },
+      "revId": "7691dc240aa2124d6c34f4082baa6262c77f8088",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "24f9e396_bc70a5b8",
+        "filename": "agent.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1011626
+      },
+      "writtenOn": "2017-06-28T13:52:16Z",
+      "side": 1,
+      "message": "What does maximum_noise means? Are there higher values? So this is the maximum possible noise that only occurs when the agent is directly on the charging station? Can this information be obtained via function call in order to avoid inconsistency when it is changed in other parts of the code?",
+      "range": {
+        "startLine": 45,
+        "startChar": 30,
+        "endLine": 45,
+        "endChar": 43
       },
       "revId": "7691dc240aa2124d6c34f4082baa6262c77f8088",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
@@ -48,6 +94,29 @@
     },
     {
       "key": {
+        "uuid": "b0f5ee5a_149a575d",
+        "filename": "agent.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1011626
+      },
+      "writtenOn": "2017-06-28T13:52:16Z",
+      "side": 1,
+      "message": "Why is here the assumption included that all directions can have obstacles at the same time, but this assumption is omitted in the following code?",
+      "range": {
+        "startLine": 71,
+        "startChar": 10,
+        "endLine": 71,
+        "endChar": 38
+      },
+      "revId": "7691dc240aa2124d6c34f4082baa6262c77f8088",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9fd22302_3f432e0c",
         "filename": "agent.cc",
         "patchSetId": 1
@@ -63,6 +132,29 @@
         "startLine": 83,
         "startChar": 10,
         "endLine": 84,
+        "endChar": 16
+      },
+      "revId": "7691dc240aa2124d6c34f4082baa6262c77f8088",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bce44a2b_0f3a94b8",
+        "filename": "agent.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 1011626
+      },
+      "writtenOn": "2017-06-28T13:52:16Z",
+      "side": 1,
+      "message": "a comment when this case can occur would be nice. I\u0027m not sure, but I think that the default case can only be entered if obstacles occur in every direction and thus, only the else case is possible here.",
+      "range": {
+        "startLine": 156,
+        "startChar": 8,
+        "endLine": 156,
         "endChar": 16
       },
       "revId": "7691dc240aa2124d6c34f4082baa6262c77f8088",
